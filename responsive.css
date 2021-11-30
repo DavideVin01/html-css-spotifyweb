@@ -11,6 +11,10 @@
     .header-container{
         width: calc(100vw - 200px);
     }
+
+    .sidebar-item-text{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 769px){

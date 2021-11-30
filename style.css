@@ -12,6 +12,7 @@ img {
 
 body{
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /***** Utilities *****/
@@ -48,6 +49,10 @@ body{
     justify-content: center;
 }
 
+.align-items-center{
+    align-items: center;
+}
+
 /* Backgrounds */
 
 .bg-black{
@@ -65,6 +70,10 @@ body{
 
 /* Colors */
 
+.text-white{
+    color: #fff;
+}
+
 .text-gray{
     color: #7A7C81;
 }
@@ -80,9 +89,33 @@ body{
 /***** Sidebar *****/
 
 .sidebar-container{
+    display: flex;
     width: 60px;
     height: calc(100vh - 80px);
-    padding: 5px;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.sidebar-container img{
+    height: 30px;
+    width: auto;
+    margin: 5px 5px 5px 0;
+}
+
+#logo{
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.sidebar-icon-box{
+    cursor: pointer;
+}
+
+.sidebar-item-text{
+    display: none;
 }
 
 /***** Header *****/
