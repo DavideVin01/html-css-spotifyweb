@@ -6,10 +6,10 @@
         width: 200px;
     }
     .player-container{
-        width: 577px;
+        width: 100vw;
     }
     .header-container{
-        width: calc(577px - 200px);
+        width: calc(100vw - 200px);
     }
 }
 
@@ -18,10 +18,10 @@
         width: 769px;
     }
     .player-container{
-        width: 769px;
+        width: 100vw;
     }
     .header-container{
-        width: calc(769px - 200px);
+        width: calc(100vw - 200px);
     }
 }
 
@@ -30,10 +30,10 @@
         width: 993px;
     }
     .player-container{
-        width: 993px;
+        width: 100vw;
     }
     .header-container{
-        width: calc(993px - 200px);
+        width: calc(100vw - 200px);
     }
 }
 
@@ -42,10 +42,10 @@
         width: 1200px;
     }
     .player-container{
-        width: 1200px;
+        width: 100vw;
     }
     .header-container{
-        width: calc(1200px - 200px);
+        width: calc(100vw - 200px);
     }
 }
 
@@ -54,9 +54,9 @@
         width: 1400px;
     }
     .player-container{
-        width: 1400px;
+        width: 100vw;
     }
     .header-container{
-        width: calc(1400px - 200px);
+        width: calc(100vw - 200px);
     }
 }
