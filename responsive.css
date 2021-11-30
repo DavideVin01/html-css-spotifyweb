@@ -15,6 +15,14 @@
     .sidebar-item-text{
         display: block;
     }
+
+    #text-logo{
+        display: block;
+        font-size: 1.5em;
+        line-height: 50px;
+
+    }
+
 }
 
 @media screen and (min-width: 769px){

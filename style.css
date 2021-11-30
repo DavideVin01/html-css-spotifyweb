@@ -93,7 +93,7 @@ body{
     width: 60px;
     height: calc(100vh - 80px);
     padding: 10px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .sidebar-container img{
@@ -106,7 +106,7 @@ body{
     display: flex;
     height: 40px;
     width: auto;
-    margin-bottom: 20px;
+    margin: 0 0px 20px 0;
     align-items: flex-start;
 }
 
@@ -115,6 +115,10 @@ body{
 }
 
 .sidebar-item-text{
+    display: none;
+}
+
+#text-logo{
     display: none;
 }
 
