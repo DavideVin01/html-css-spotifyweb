@@ -236,8 +236,12 @@ a{
     text-align: center;
     position: absolute;
     right: 0;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border-radius: 20px;
+}
+
+.upgrade-btn-text{
+    font-size: 14px;
 }
 
 /* Nav */
