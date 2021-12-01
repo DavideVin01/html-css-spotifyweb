@@ -268,6 +268,15 @@ nav ul li a{
     padding: 20px;
 }
 
+.main-row{
+
+}
+
+.main-song{
+    width: 200px;
+    height: 200px;
+}
+
 /***** Footer *****/
 
 .player-container{
