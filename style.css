@@ -269,12 +269,35 @@ nav ul li a{
 }
 
 .main-row{
+    flex-wrap: wrap;
+}
 
+.card{
+    margin: 15px 5px 0px 5px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card *{
+    margin: 5px 0;
 }
 
 .main-song{
     width: 200px;
     height: 200px;
+}
+
+address{
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+address h3{
+    font-size: 14px;
 }
 
 /***** Footer *****/
