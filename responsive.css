@@ -28,6 +28,21 @@
         margin-bottom: 5px;
     }
 
+    .create-playlist-box::before{
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: '\f067';
+        color: #000;
+        font-size: 1.5em;
+        display: flex;
+        padding: 7px 10px;
+    }
+
+    .create-playlist-text{
+        cursor: pointer;
+        font-size: 15px;
+    }
+
     .sidebar-icon-box{
         justify-content: flex-start;
     }
