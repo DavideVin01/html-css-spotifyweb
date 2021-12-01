@@ -181,7 +181,7 @@ a{
 }
 
 .install-app img{
-    margin: 5px;
+    /* margin: 5px; */
     height: 20px;
     width: auto;
 }
@@ -191,15 +191,12 @@ a{
     display: flex;
     align-items: center;
     font-size: 12px;
-    padding-left: 10px;
 }
 
 .username-box img{
     height: 25px;
     width: auto;
 }
-
-/* Sul responsive fare che quando sidebar si apre, immagine più piccola */
 
 /***** Header *****/
 
