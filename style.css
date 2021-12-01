@@ -86,6 +86,18 @@ a{
     color: #7A7C81;
 }
 
+/* Font Weights */
+
+.f-weight-bold{
+    font-weight: bold;
+}
+.f-weight-500{
+    font-weight: 500;
+}
+.f-weight-800{
+    font-weight: 800;
+}
+
 /***** Container *****/
 
 .container{
@@ -111,11 +123,11 @@ a{
 }
 
 #logo{
-    display: flex;
-    height: 50px;
-    width: auto;
-    margin: 0 10px 20px 7px;
-    align-items: flex-start;
+    background-image: url("img/logo-small.svg");
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 35px;
+        margin-bottom: 30px;
 }
 
 .sidebar-icon-box{
@@ -129,6 +141,15 @@ a{
 
 #text-logo{
     display: none;
+}
+
+.playlist-column{
+    padding-top: 20px;
+    display: none;
+}
+
+.playlist-column h3{
+    font-size: 14px;
 }
 
 .sidebar-bottom-section{
