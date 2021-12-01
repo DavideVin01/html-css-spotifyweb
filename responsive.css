@@ -12,6 +12,9 @@
     .header-container{
         width: calc(100vw - 200px);
     }
+    .main-container{
+        width: calc(100vw - 200px);
+    }
 
     .sidebar-item-text{
         display: block;
