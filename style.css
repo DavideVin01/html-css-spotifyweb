@@ -36,6 +36,19 @@ a{
     float: left;
 }
 
+.rounded{
+    border-radius: 50%;
+}
+
+/* Margins */
+
+.m-y-50{
+    margin-bottom: 50px;
+}
+.m-y-100{
+    margin-bottom: 100px;
+}
+
 /* Flex Utilities */
 
 .d-flex{
@@ -278,7 +291,7 @@ nav ul li a{
 
 .card{
     cursor: pointer;
-    margin: 15px 5px 0px 0px;
+    margin: 15px 10px 0px 0px;
     width: 200px;
     height: 100%;
     display: flex;
