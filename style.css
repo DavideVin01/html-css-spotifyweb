@@ -15,6 +15,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    border: .5px solid gray;
+}
+
+a{
+    text-decoration: none;
+}
+
 /***** Utilities *****/
 
 .clearfix{
