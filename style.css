@@ -93,10 +93,12 @@ body{
     width: 60px;
     height: calc(100vh - 80px);
     padding: 10px;
+    flex-shrink: 0;
+    position: fixed;
 }
 
 .sidebar-container img{
-    height: 30px;
+    height: 25px;
     width: auto;
     margin: 5px 5px 5px 0;
 }
@@ -127,11 +129,14 @@ body{
     width: calc(550px - 60px);
     height: 80px;
     position: fixed;
+    top: 0;
+    right: 0;
 }
 
 /***** Main *****/
 
 .main-container{
+    display: flex;
     padding-top: 100px;
     width: 100%;
     height: calc(100vh - 80px);
