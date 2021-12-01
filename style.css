@@ -273,11 +273,12 @@ nav ul li a{
 }
 
 .card{
-    margin: 15px 5px 0px 0px;
+    margin: 15px 5px 0px 5px;
     width: 200px;
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .card *{
