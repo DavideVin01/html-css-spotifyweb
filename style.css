@@ -123,6 +123,16 @@ body{
     display: none;
 }
 
+.sidebar-bottom-section{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column-reverse;
+}
+
+.install-app{
+    justify-content: flex-end;
+}
+
 /***** Header *****/
 
 .header-container{
