@@ -104,14 +104,15 @@ body{
 
 #logo{
     display: flex;
-    height: 40px;
+    height: 50px;
     width: auto;
-    margin: 0 10px 20px 0;
+    margin: 0 10px 20px 7px;
     align-items: flex-start;
 }
 
 .sidebar-icon-box{
     cursor: pointer;
+    justify-content: center;
 }
 
 .sidebar-item-text{
