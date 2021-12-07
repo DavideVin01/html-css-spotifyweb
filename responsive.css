@@ -100,15 +100,17 @@
     
     .footer-left-side-small-column .left{
         /* background-color: green; */
-        width: 15%;
+        width: 50px;
     }
 
     .footer-left-side-small-column .center{
-        width: 20%;
+        width: 50px;
     }
 
     .footer-left-side-small-column .right{
-        width: 15%;
+        width: 50px;
+        flex-direction: row;
+        align-items: center;
     }
 
     .footer-center-column{
