@@ -44,6 +44,16 @@ a{
     border-radius: 50%;
 }
 
+.active-bottom{
+    border-bottom: 1px solid rgb(121, 255, 121);
+    text-align: center;
+}
+
+.active-left{
+    border-left: 1px solid rgb(121, 255, 121);
+    text-align: center;
+}
+
 /* Margins */
 
 .m-x-10{
@@ -72,12 +82,18 @@ a{
     justify-content: flex-start;
 }
 
-.justify-content-start{
+.justify-content-center{
     justify-content: center;
 }
 
 .align-items-center{
     align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.align-items-start{
+    align-items: flex-start;
 }
 
 /* Backgrounds */
@@ -290,6 +306,7 @@ nav ul {
 }
 
 nav ul li{
+    align-items: flex-start;
     margin: 0 10px;
     list-style-type: none;
     display: flex;
