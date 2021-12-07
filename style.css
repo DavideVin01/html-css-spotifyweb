@@ -26,6 +26,10 @@ a{
 
 /***** Utilities *****/
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
 .clearfix{
     content: '';
     display: table;
