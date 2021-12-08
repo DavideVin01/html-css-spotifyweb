@@ -243,7 +243,7 @@ a{
 
 #create-playlist-list{
     overflow-y: auto;
-    height: 60%;
+    height: 200px;
 }
 
 .sidebar-bottom-section{
@@ -364,6 +364,14 @@ nav ul li a{
 .main-song{
     width: 200px;
     height: 200px;
+}
+
+.main-song:hover{
+    /* filter: saturate(2); */
+    filter:brightness(.3);
+    content: 'f144';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
 }
 
 address{
