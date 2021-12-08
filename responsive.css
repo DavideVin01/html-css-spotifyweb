@@ -161,3 +161,7 @@
         width: calc(100vw - 200px);
     }
 }
+
+@media screen and (min-height: 400px) {
+
+}
