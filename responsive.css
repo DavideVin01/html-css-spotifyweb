@@ -162,6 +162,12 @@
     }
 }
 
-@media screen and (min-height: 400px) {
+@media screen and (max-height: 160px) {
+    .upper-content{
+        display: none;
+    }
 
+    .player-container{
+        overflow: hidden;
+    }
 }

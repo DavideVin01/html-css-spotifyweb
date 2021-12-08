@@ -17,204 +17,207 @@
 <body>
     <div class="container clearfix">
 
-        <section>
-            <sidebar class="col">
-                <div class="sidebar-container bg-black d-flex d-column">
-                    <div class="sidebar-icon-box d-flex">
-                        <div id="logo"></div>
+        <div class="upper-content">
+
+            <section>
+                <sidebar class="col clearfix">
+                    <div class="sidebar-container bg-black d-flex d-column">
+                        <div class="sidebar-icon-box d-flex">
+                            <div id="logo"></div>
+                        </div>
+
+                        <div class="sidebar-icon-box d-flex align-items-center hover-white active-left">
+                            <img src="img/home.svg" alt="">
+                            <span class=sidebar-item-text>Home</span>
+                        </div>
+                        <div class="sidebar-icon-box d-flex align-items-center text-gray hover-white">
+                            <img src="img/search.svg" alt="">
+                            <span class=sidebar-item-text>Cerca</span>
+                        </div>
+                        <div class="sidebar-icon-box d-flex align-items-center text-gray hover-white">
+                            <img src="img/libreria.svg" alt="">
+                            <span class=sidebar-item-text>La tua libreria</span>
+                        </div>
+
+                        <div class="playlist-column d-flex d-column">
+                            <h3>
+                                PLAYLIST
+                            </h3>
+                            <div class="create-playlist-box d-flex">
+                            </div>
+                            <span class="f-size-14 text-gray hover-white cursor-pointer">Crea Playlist</span>
+                            <div id="create-playlist-list">
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                                <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-bottom-section">
+                            <!-- invertiti per il column reverse -->
+                            <div class="username-box">
+                                <img src="img/profile.svg" alt="">
+                                <span class="sidebar-item-text">Davide Vinciguerra</span>
+                            </div>
+                            <hr>
+                            <div class="install-app">
+                                <img src="img/download.svg" alt="">
+                                <a href="#" class="sidebar-item-text text-gray hover-white">Installa app</a>
+                            </div>
+                        </div>
                     </div>
+                </sidebar>
+            </section>
 
-                    <div class="sidebar-icon-box d-flex align-items-center hover-white active-left">
-                        <img src="img/home.svg" alt="">
-                        <span class=sidebar-item-text>Home</span>
+            <section class="d-flex d-column">
+                <header>
+                    <div class="header-container bg-fadedblue">
+                        <a href="#" class="upgrade-btn hover-big">
+                            <div class="upgrade-btn-text">EFFETTUA L'UPGRADE</div>
+                        </a>
                     </div>
-                    <div class="sidebar-icon-box d-flex align-items-center text-gray hover-white">
-                        <img src="img/search.svg" alt="">
-                        <span class=sidebar-item-text>Cerca</span>
+                </header>
+
+                <main>
+                    <div class="main-container bg-darkblue">
+                        <nav>
+                            <ul class="d-flex align-items-start">
+                                <li><a class="hover-white active-bottom" href="#">IN EVIDENZA</a></li>
+                                <li><a class="hover-white" href="#">PODCAST</a></li>
+                                <li><a class="hover-white" href="#">CLASSIFICHE</a></li>
+                                <li><a class="hover-white" href="#">GENERI E MOOD</a></li>
+                                <li><a class="hover-white" href="#">NUOVE USCITE</a></li>
+                                <li><a class="hover-white" href="#">SCOPRI</a></li>
+                            </ul>
+                        </nav>
+                        <section class="main-content">
+                            <!-- Recently played row -->
+                            <h2 id="recently-played" class="genre-title">Recently played</h2>
+                            <div class="main-row d-flex">
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/metal_lifting.jpg" alt="Metal Lifting">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Heavy Metal</h3>
+                                        <div class="subtitle f-size-12 text-gray">Subtitle</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/stranger.jpeg" alt="Stranger Things">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                        <div class="subtitle f-size-12 text-gray">Kyle Dixon & Michael Stein</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/aquietplace.jpeg" alt="A quiet place">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>A quiet place</h3>
+                                        <div class="subtitle f-size-12 text-gray">Subtitle</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/split.jpeg" alt="Split">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Split</h3>
+                                        <div class="subtitle f-size-12 text-gray">Subtitle</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/cure.jpeg" alt="Cure">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>A cure for wellness</h3>
+                                        <div class="subtitle f-size-12 text-gray">Subtitle</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/sinister.jpeg" alt="Sinister">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Sinister</h3>
+                                        <div class="subtitle f-size-12 text-gray">Subtitle</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Created for row -->
+                            <h2 id="created-for" class="genre-title">Creato per Davide Vinciguerra</h2>
+                            <div class="subtitle f-size-12 text-gray">Più ascolti, più accurati saranno i suggerimenti.
+                            </div>
+                            <div class="main-row d-flex">
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/radar.jpeg" alt="Release Radar">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Release Radar</h3>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song" src="img/mixdaily.jpeg" alt="Daily Mix">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Daily Mix 1</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Popular Artists row -->
+                            <h2 id="popular-artists" class="genre-title">Artisti più popolari</h2>
+                            <div class="subtitle f-size-12 text-gray">Più ascolti, più accurati saranno i suggerimenti.
+                            </div>
+                            <div class="main-row d-flex m-y-50">
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song rounded" src="img/youg.jpeg" alt="Lana del Rey">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Lana del Rey</h3>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="song-box">
+                                        <img class="main-song rounded" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="author">
+                                        <h3>Ludovico Einaudi</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
                     </div>
-                    <div class="sidebar-icon-box d-flex align-items-center text-gray hover-white">
-                        <img src="img/libreria.svg" alt="">
-                        <span class=sidebar-item-text>La tua libreria</span>
-                    </div>
-
-                    <div class="playlist-column d-flex d-column">
-                        <h3>
-                            PLAYLIST
-                        </h3>
-                        <div class="create-playlist-box d-flex">
-                        </div>
-                        <span class="f-size-14 text-gray hover-white cursor-pointer">Crea Playlist</span>
-                        <div id="create-playlist-list">
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                            <div class="create-playlist-text text-gray hover-white">Nome Playlist</div>
-                        </div>
-                    </div>
-
-                    <div class="sidebar-bottom-section">
-                        <!-- invertiti per il column reverse -->
-                        <div class="username-box">
-                            <img src="img/profile.svg" alt="">
-                            <span class="sidebar-item-text">Davide Vinciguerra</span>
-                        </div>
-                        <hr>
-                        <div class="install-app">
-                            <img src="img/download.svg" alt="">
-                            <a href="#" class="sidebar-item-text text-gray hover-white">Installa app</a>
-                        </div>
-                    </div>
-                </div>
-            </sidebar>
-        </section>
-
-        <section class="d-flex d-column">
-            <header>
-                <div class="header-container bg-fadedblue">
-                    <a href="#" class="upgrade-btn hover-big">
-                        <div class="upgrade-btn-text">EFFETTUA L'UPGRADE</div>
-                    </a>
-                </div>
-            </header>
-
-            <main>
-                <div class="main-container bg-darkblue">
-                    <nav>
-                        <ul class="d-flex align-items-start">
-                            <li><a class="hover-white active-bottom" href="#">IN EVIDENZA</a></li>
-                            <li><a class="hover-white" href="#">PODCAST</a></li>
-                            <li><a class="hover-white" href="#">CLASSIFICHE</a></li>
-                            <li><a class="hover-white" href="#">GENERI E MOOD</a></li>
-                            <li><a class="hover-white" href="#">NUOVE USCITE</a></li>
-                            <li><a class="hover-white" href="#">SCOPRI</a></li>
-                        </ul>
-                    </nav>
-                    <section class="main-content">
-                        <!-- Recently played row -->
-                        <h2 id="recently-played" class="genre-title">Recently played</h2>
-                        <div class="main-row d-flex">
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/metal_lifting.jpg" alt="Metal Lifting">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Heavy Metal</h3>
-                                    <div class="subtitle f-size-12 text-gray">Subtitle</div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/stranger.jpeg" alt="Stranger Things">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-                                    <div class="subtitle f-size-12 text-gray">Kyle Dixon & Michael Stein</div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/aquietplace.jpeg" alt="A quiet place">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>A quiet place</h3>
-                                    <div class="subtitle f-size-12 text-gray">Subtitle</div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/split.jpeg" alt="Split">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Split</h3>
-                                    <div class="subtitle f-size-12 text-gray">Subtitle</div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/cure.jpeg" alt="Cure">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>A cure for wellness</h3>
-                                    <div class="subtitle f-size-12 text-gray">Subtitle</div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/sinister.jpeg" alt="Sinister">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Sinister</h3>
-                                    <div class="subtitle f-size-12 text-gray">Subtitle</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Created for row -->
-                        <h2 id="created-for" class="genre-title">Creato per Davide Vinciguerra</h2>
-                        <div class="subtitle f-size-12 text-gray">Più ascolti, più accurati saranno i suggerimenti.
-                        </div>
-                        <div class="main-row d-flex">
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/radar.jpeg" alt="Release Radar">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Release Radar</h3>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song" src="img/mixdaily.jpeg" alt="Daily Mix">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Daily Mix 1</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Popular Artists row -->
-                        <h2 id="popular-artists" class="genre-title">Artisti più popolari</h2>
-                        <div class="subtitle f-size-12 text-gray">Più ascolti, più accurati saranno i suggerimenti.
-                        </div>
-                        <div class="main-row d-flex m-y-50">
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song rounded" src="img/youg.jpeg" alt="Lana del Rey">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Lana del Rey</h3>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="song-box">
-                                    <img class="main-song rounded" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
-                                    <i class="far fa-play-circle"></i>
-                                </div>
-                                <div class="author">
-                                    <h3>Ludovico Einaudi</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                    </section>
-                </div>
-            </main>
-        </section>
+                </main>
+            </section>
+        </div>
 
         <section class="col clearfix">
             <footer>
