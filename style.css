@@ -390,7 +390,6 @@ nav ul li a{
 }
 
 .main-song:hover{
-    /* filter: saturate(2); */
     filter:brightness(.3);
 }
 
