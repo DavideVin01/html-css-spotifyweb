@@ -186,7 +186,6 @@ a{
     height: calc(100vh - 80px);
     padding: 15px;
     flex-shrink: 0;
-    overflow-y: auto;
 }
 
 .sidebar-container img{
@@ -240,6 +239,11 @@ a{
     align-items: center;
     margin-right: 8px;
     cursor: pointer;
+}
+
+#create-playlist-list{
+    overflow-y: auto;
+    height: 60%;
 }
 
 .sidebar-bottom-section{
@@ -379,6 +383,7 @@ address h3{
     display: flex;
     height: 80px;
     padding: 10px;
+    width: 100%;
 }
 
 .footer-side-column{
