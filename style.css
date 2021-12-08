@@ -493,3 +493,11 @@ address h3{
     height: 5px;
     background-color: white;
 }
+
+.time-bar:hover .time-bar-white{
+    background-color: rgb(123, 255, 123);
+}
+
+.volume-bar:hover .volume-bar-white{
+    background-color: rgb(123, 255, 123);
+}
