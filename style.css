@@ -159,7 +159,7 @@ a{
 }
 
 .hover-big:hover{
-    transform: scale(3);
+    transform: scale(1.2);
 }
 
 .hover-black:hover{
